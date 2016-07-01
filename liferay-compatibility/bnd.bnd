@@ -7,7 +7,7 @@ Bundle-Description: ${project.description}
 Include-Resource:\
 	META-INF/resources=target/generated-resources/META-INF/resources
 
-Web-ContextPath: /vaadin${vaadin.version}
+Web-ContextPath: /vaadin${project.version}
 Export-Package: com.vaadin.liferay.webresources
 
 
