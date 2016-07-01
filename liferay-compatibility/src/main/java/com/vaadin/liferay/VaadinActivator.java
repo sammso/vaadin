@@ -1,4 +1,4 @@
-package org.liferay.vaadin7.compatibilitypack;
+package com.vaadin.liferay;
 
 import java.util.Dictionary;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Map;
 
 import javax.portlet.Portlet;
 
-import org.liferay.vaadin7.compatibilitypack.webresources.VaadinWebResource;
+import com.vaadin.liferay.webresources.VaadinWebResource;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;

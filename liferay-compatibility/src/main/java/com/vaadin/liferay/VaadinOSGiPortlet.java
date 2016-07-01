@@ -1,4 +1,4 @@
-package org.liferay.vaadin7.compatibilitypack;
+package com.vaadin.liferay;
 
 import java.util.ArrayList;
 import java.util.List;
