@@ -115,6 +115,7 @@
 						<!-- Export package is handled in exec plugin -->
 						<Export-Package></Export-Package>
 						<Import-Package></Import-Package>
+						<Web-ContextPath>/vaadin${project.version}</Web-ContextPath>
 					</instructions>
 				</configuration>
 				<executions>

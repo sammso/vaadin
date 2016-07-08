@@ -30,10 +30,11 @@ public class VaadinActivator implements BundleActivator,
 		_portletServiceRegistration = new HashMap<ServiceReference<UI>, ServiceRegistration<Portlet>>();
 		_serviceTracker  = new ServiceTracker<UI, UI>(
 				bundleContext, UI.class, this);
-		_serviceTracker.open(); 
+		_serviceTracker.open();
+		
 		if (_log.isDebugEnabled()) {
 			_log.debug("started");
-		}		
+		}
 	}
 
 	public void stop(BundleContext bundleContext) throws Exception {

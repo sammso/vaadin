@@ -44,7 +44,7 @@
             <unpack>false</unpack>
             <outputFileNameMapping>${artifact.artifactId}-${artifact.version}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
             <includes>
-                <include>liferay-compatibility:</include>
+                <include>com.vaadin:liferay-compatibility:</include>
             </includes>
         </dependencySet>        
     </dependencySets>

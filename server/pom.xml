@@ -239,6 +239,11 @@
 							com.vaadin.shared;bundle-version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}",
 							com.vaadin.push;bundle-version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}";resolution:=optional,
 							com.vaadin.sass-compiler;bundle-version="${vaadin.sass.version}";resolution:=optional</Require-Bundle>
+						<Web-ContextPath>/vaadin${project.version}</Web-ContextPath>
+						<Include-Resource>
+						  {maven-resources}, {maven-dependencies},
+						  VAADIN=target/classes/VAADIN
+						</Include-Resource>
 					</instructions>
 				</configuration>
 				<executions>
